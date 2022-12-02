@@ -1,7 +1,8 @@
-import rlp
 import forta_agent
 from web3 import Web3
 from forta_agent import Finding, FindingType, FindingSeverity, get_transaction_receipt, TransactionEvent
+import rlp
+
 HIGH_GAS_THRESHOLD = 2000000
 
 # pulled from https://github.com/forta-network/starter-kits
